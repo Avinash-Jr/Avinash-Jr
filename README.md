@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Data Structures and Algorithm and Full Stack Development**
 
-- 🤝 I’m looking for help with **Getting Hired as a Developer**
+- 🤝 I’m looking for help with **Getting Hired in a Reputated Company**
 
 - 👨‍💻 All of my projects are available at [https://avinash-jr.github.io/portfolio/#](https://avinash-jr.github.io/portfolio/#)
 
