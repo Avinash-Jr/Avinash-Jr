@@ -16,7 +16,7 @@
 
 - 📄 Know about my experiences:https://drive.google.com/file/d/1_5Bvv4Mbp-y261OwKlCl12ohZz72DSto/view?usp=sharing
 
-- ⚡ Fun fact **I am not able to serious more than 5 minutes.**
+- ⚡ Fun fact **I am not able to serious more than 5 minutes.🤣🤣**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
