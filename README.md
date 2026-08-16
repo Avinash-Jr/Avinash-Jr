@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **avijr272@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1Wf5ECgvxiVgFYPotTIStNPZCQQuey6pu/view?usp=drive_link](https://drive.google.com/file/d/1Wf5ECgvxiVgFYPotTIStNPZCQQuey6pu/view?usp=drive_link)
+- 📄 Know about my experiences:https://drive.google.com/file/d/1_5Bvv4Mbp-y261OwKlCl12ohZz72DSto/view?usp=sharing
 
 - ⚡ Fun fact **I am not able to serious more than 5 minutes.**
 
