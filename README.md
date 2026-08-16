@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Devops Engineering**
 
-- 👨‍💻 All of my projects are available at [https://master.d23nfncmkyriis.amplifyapp.com/](https://master.d23nfncmkyriis.amplifyapp.com/)
+- 👨‍💻 All of my projects are available at [[https://master.d23nfncmkyriis.amplifyapp.com/](https://master.d23nfncmkyriis.amplifyapp.com/)](https://my-portfolio-beta-pink-71.vercel.app/)
 
 - 💬 Ask me about **Data Structures and Algorithm,**
 
