@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Live Industrial Projects**
 
-- 🌱 I’m currently learning ** Backend SDE + Devops Engineering**
+- 🌱 I’m currently learning **Backend SDE + Devops Engineering**
 
 - 👨‍💻 All of my projects are available at (https://my-portfolio-beta-pink-71.vercel.app/)
 
