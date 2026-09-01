@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 scripts/generate_portrait.py
 Generates a crystal-clear, high-definition animated dot-matrix (stippling) portrait SVG.
@@ -39,8 +39,8 @@ def load_config(config_path="config.yml"):
     default_config = {
         "github_username": "octocat",
         "display_name": "Developer",
-        "headline": "🚀 Building Cool Stuff",
-        "tagline": "Solo Developer • React Native Specialist • AI Enthusiast",
+        "headline": "ðŸš€ Building Cool Stuff",
+        "tagline": "Solo Developer â€¢ React Native Specialist â€¢ AI Enthusiast",
         "bio": "",
         "links": {},
         "skills": [],
@@ -90,11 +90,22 @@ def generate_crystal_portrait(config):
     print(f"[Portrait] Processing '{source_image}'...")
     orig = Image.open(source_image).convert("RGB")
 
-    # 1. Background removal using rembg
+        # 1. Background removal using rembg
     try:
         from rembg import remove
-        print("[Portrait] Isolating subject using AI background removal...")
-        bg_removed = remove(orig)
+        import os as temp_os
+        temp_os.environ['ORT_TENSORRT_FP16_ENABLE'] = '1'
+        print("[Portrait] Isolating subject using AI background removal (OOM Protected)...")
+        small = orig.copy()
+        small.thumbnail((400, 400), Image.LANCZOS)
+        small_bg = remove(small)
+        
+        # We now have small_bg which is RGBA. Let's get the alpha mask.
+        small_mask = small_bg.split()[-1]
+        mask = small_mask.resize(orig.size, Image.LANCZOS)
+        
+        bg_removed = Image.new("RGBA", orig.size, (0, 0, 0, 0))
+        bg_removed.paste(orig, (0, 0), mask)
     except Exception as e:
         print(f"[Portrait] rembg fallback notice: {e}")
         bg_removed = orig
@@ -289,3 +300,10 @@ if __name__ == "__main__":
     generate_contributions_svg()
     generate_bento_svg()
     render_readme()
+
+
+
+
+
+
+

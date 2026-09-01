@@ -22,8 +22,8 @@ def load_config(config_path="config.yml"):
         return yaml.safe_load(f) or {}
 
 
-def fetch_bento_metrics(username="Avinash-Jr"):
-    total_year = "665"
+def fetch_bento_metrics(username="avijr"):
+    total_year = "800"
     contrib_url = f"https://github.com/users/{username}/contributions"
     try:
         req = urllib.request.Request(contrib_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -35,13 +35,13 @@ def fetch_bento_metrics(username="Avinash-Jr"):
     except Exception as e:
         print(f"[Bento] Notice: Using fallback contribution total ({e})")
 
-    total_stars = 12
-    public_repos_count = 24
+    total_stars = 15
+    public_repos_count = 30
     lang_totals = {
-        "TypeScript": 1750967,
-        "Kotlin": 1213609,
-        "Python": 473375,
-        "HTML/CSS": 163662
+        "JavaScript": 1850000,
+        "TypeScript": 1420000,
+        "Python": 380000,
+        "HTML/CSS": 210000
     }
 
     try:
