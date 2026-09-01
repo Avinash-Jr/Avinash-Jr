@@ -1,0 +1,101 @@
+# ==============================================================================
+# Profile Configuration
+# Edit this single file to personalize your entire GitHub Profile!
+# ==============================================================================
+
+github_username: "avijr"
+display_name: "Avinash Kumar"
+headline: "🚀 Building Scalable Backend & Real-Time Systems"
+tagline: "Full-Stack Engineer • Backend Specialist • DevOps Enthusiast"
+
+typing_lines:
+  - "Software Engineer | Full-Stack & Backend"
+  - "Real-Time Systems Specialist"
+  - "Cloud & DevOps Engineer"
+  - "Building Production-Grade APIs"
+
+bio: |
+  I'm a **Software Engineer** with 2+ years building and operating production backend and real-time systems. I focus on reliable, well-tested APIs, measurable performance gains, and clean, maintainable code delivered in collaborative Agile teams.
+
+  * 🔧 **Currently:** Architecting production-grade Video Interview Platforms with WebRTC and building event-driven real-time collaboration systems.
+  * ☁️ **Cloud Focus:** AWS infrastructure (EC2, S3, RDS), Docker containerization, and CI/CD automation with GitHub Actions.
+  * 💼 **Experience:** 2+ years across TheRegiment and Enveu Software Technologies, building scalable backend services and OTT streaming platforms.
+  * 🤝 **Open To:** DevOps Engineer, SRE, Backend SDE, and Full-Stack Developer roles in product companies and startups.
+
+links:
+  linkedin: "https://www.linkedin.com/in/avinash-kumar"
+  x: ""
+  email: "avijr272@gmail.com"
+  portfolio: ""
+
+skills:
+  - name: "Node.js / Express"
+    level: 90
+    category: "Backend"
+  - name: "PostgreSQL / SQL"
+    level: 86
+    category: "Backend"
+  - name: "TypeScript"
+    level: 85
+    category: "Web"
+  - name: "React.js / Next.js"
+    level: 82
+    category: "Web"
+  - name: "Docker"
+    level: 84
+    category: "DevOps"
+  - name: "AWS (EC2, S3, RDS)"
+    level: 80
+    category: "DevOps"
+  - name: "WebSockets / WebRTC"
+    level: 78
+    category: "Backend"
+  - name: "Git & CI/CD"
+    level: 88
+    category: "DevOps"
+
+tech_stack:
+  - category: "Backend & APIs"
+    icons: "nodejs,express,postgresql,redis,nginx"
+  - category: "Web Development"
+    icons: "react,nextjs,ts,tailwind,html,css"
+  - category: "Cloud & DevOps"
+    icons: "aws,docker,githubactions,linux,bash"
+  - category: "Tools & Platforms"
+    icons: "git,github,vscode,prisma"
+
+human_side:
+  - title: "🎯 Current Focus"
+    desc: "Building production systems with WebRTC, real-time collaboration, and cloud infrastructure."
+  - title: "📚 Always Learning"
+    desc: "System design, Kubernetes orchestration, and distributed systems architecture."
+  - title: "💡 Philosophy"
+    desc: "I believe in writing clean, maintainable code with measurable impact and zero-downtime deployments."
+
+bento:
+  production_focus:
+    - title: "🎥 Video Interview Platform"
+      desc: "WebRTC sessions with sub-200ms latency & 99.5% reliability"
+    - title: "⚡ Real-Time Collaboration"
+      desc: "Event-driven architecture with WebSocket pub/sub & PostgreSQL optimization"
+    - title: "☁️ Cloud Infrastructure"
+      desc: "AWS (EC2, S3, RDS), Docker, CI/CD automation & zero-downtime deployments"
+  milestones:
+    - badge: "🔐 Security Framework"
+      desc: "JWT + RBAC system reducing unauthorized access by 40%"
+    - badge: "⚡ Performance Gains"
+      desc: "25% API response time reduction on 50K+ daily requests"
+    - badge: "🚀 99.9% Uptime"
+      desc: "Production OTT streaming services with blue-green deployments"
+
+footer_text: "Building reliable systems, one API at a time. Let's create something impactful together."
+
+portrait:
+  source_image: "assets/source-photo.jpg"
+  grid_spacing_px: 8        # fine grid for high fidelity
+  canvas_size_px: 1000      # canvas resolution in pixels
+  color_palette: "original" # "original", "monochrome", or "duotone"
+  duotone_light: "#ffffff"  # highlight in duotone/monochrome
+  duotone_dark: "#161b22"   # background in duotone/monochrome
+  reveal_style: "rows"      # "rows" | "columns" | "diagonal"
+
